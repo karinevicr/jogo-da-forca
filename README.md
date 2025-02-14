@@ -2,7 +2,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;Este projeto tem como propósito o mapeamento de requisitos funcionais de um jogo da velha. O principal objetivo desta atividade é verificar e testar os conhecimentos em GitFlow.
 
-&nbsp;&nbsp;&nbsp;&nbsp;EstePara acessar a atividade, é necessário acessar o link do repositório. Você pode encontrar esse link aqui: [Repositório no GitHub](https://github.com/karinevicr/jogo-da-forca.git)
+&nbsp;&nbsp;&nbsp;&nbsp;Para acessar a atividade, é necessário acessar o link do repositório. Você pode encontrar esse link aqui: [Repositório no GitHub](https://github.com/karinevicr/jogo-da-forca.git)
 
 ## Levantamento de Requisitos
 

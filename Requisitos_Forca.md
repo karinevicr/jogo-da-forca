@@ -5,7 +5,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;Os requisitos funcionais definem as funcionalidades essenciais do sistema, estabelecendo as ações e comportamentos esperados para garantir que o sistema atenda às necessidades dos usuários.
 
 ### **RF01**: O sistema deve permitir que os jogadores joguem partidas de forca online, podendo ser multiplayer.
-- **Critério de Aceitação**: O sistema deve permitir que no maximo dois jogadores participem da mesma partida em tempo real.
+- **Critério de Aceitação**: O sistema deve permitir que no mínimo dois jogadores possam participar da mesma partida em tempo real.
 - **Teste**: Criar uma partida e convidar um segundo jogador para a mesma. Verificar se ambos os jogadores conseguem participar da partida simultaneamente.
   - **Pré-condição**: A partida deve estar criada e os dois jogadores devem estar conectados ao sistema.
   - **Procedimento do teste**: Iniciar a partida com dois jogadores e realizar jogadas simultâneas.
@@ -36,7 +36,7 @@
 ### **RNF01**: O sistema deve carregar a página inicial em menos de 2 segundos.
 - **ISO/IEC 25010 - Desempenho**: O sistema deve fornecer um tempo de resposta eficiente, garantindo que o carregamento da página esteja dentro de parâmetros aceitáveis.
 - **Critério de Aceitação**: A página inicial deve ser carregada em até 2 segundos.
-- **Teste**: Medir o tempo de carregamento da página inicial utilizando ferramentas como o Google PageSpeed.
+- **Teste**: Medir o tempo de carregamento da página inicial utilizando ferramentas como o cronômetro.
   - **Pré-condição**: O servidor deve estar operacional e a página inicial deve estar completamente implementada.
   - **Procedimento do teste**: Acessar a página inicial e cronometrar o tempo de carregamento.
   - **Resultado esperado**: A página deve ser carregada em menos de 2 segundos.
@@ -46,7 +46,7 @@
 - **ISO/IEC 25010 - Usabilidade**: O sistema deve ser facilmente utilizável em diferentes plataformas, com uma interface que se adapte a dispositivos móveis.
 - **Critério de Aceitação**: O layout da página inicial e das partidas deve ser adequado a diferentes tamanhos de tela.
 - **Teste**: Acessar o jogo em dispositivos móveis com diferentes tamanhos de tela (smartphones e tablets) e verificar se o layout se adapta corretamente.
-  - **Pré-condição**: O sistema deve ser acessível através de um navegador de dispositivos móveis.
+  - **Pré-condição**: O sistema deve ser acessível através de um dispositivo móvel.
   - **Procedimento do teste**: Acessar a página e jogar uma partida em dispositivos móveis de diferentes tamanhos.
   - **Resultado esperado**: O sistema deve se ajustar adequadamente a diferentes tamanhos de tela, sem perder funcionalidade ou legibilidade.
   - **Pós-condição**: O sistema é responsivo e acessível em dispositivos móveis.
@@ -64,8 +64,8 @@
 
 - **ISO/IEC 25010 - Usabilidade**: O sistema deve ser fácil de aprender e utilizar, oferecendo um aprendizado progressivo e contínuo ao jogador.
 - **Critério de Aceitação**: O sistema deve fornecer dicas e orientações durante o jogo, principalmente para novos jogadores, explicando as regras de forma simples e intuitiva.
-- **Teste**: Testar o jogo com um jogador novato e verificar se o sistema oferece dicas contextuais que o ajudem a entender as regras durante a partida. O sistema deve permitir que o jogador saiba, sem a necessidade de sair do jogo, como jogar a forca e o que fazer em cada etapa do jogo.
-  - **Pré-condição**: O sistema deve estar configurado para detectar quando o jogador é novato ou está jogando pela primeira vez.
+- **Teste**: Testar o jogo com um jogador novo e verificar se o sistema oferece dicas contextuais que o ajudem a entender as regras durante a partida. O sistema deve permitir que o jogador saiba, sem a necessidade de sair do jogo, como jogar e o que fazer em cada etapa do jogo.
+  - **Pré-condição**: O sistema deve estar configurado para detectar quando o jogador está jogando pela primeira vez.
   - **Procedimento do teste**: Iniciar uma partida com um jogador iniciante e verificar se o sistema oferece:
     1. Dicas sobre como jogar, por exemplo, explicando o objetivo do jogo, como escolher letras, e como o progresso do jogo é mostrado.
     2. Orientações durante a partida, como sugestões quando o jogador estiver em dúvida.
