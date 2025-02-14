@@ -2,7 +2,7 @@
 
 ## 1. Requisitos Funcionais
 
-&nbsp;&nbsp;&nbsp;&nbsp;Os requisitos funcionais definem as funcionalidades essenciais do sistema, estabelecendo as ações e comportamentos esperados para garantir que o sistema atenda às necessidades dos usuários.
+&nbsp;&nbsp;&nbsp;&nbsp;Os requisitos funcionais definem as funcionalidades do sistema, estabelecendo as ações e comportamentos esperados para garantir que o sistema atenda às necessidades dos usuários.
 
 ### **RF01**: O sistema deve permitir que os jogadores joguem partidas de forca online, podendo ser multiplayer.
 - **Critério de Aceitação**: O sistema deve permitir que no mínimo dois jogadores possam participar da mesma partida em tempo real.
