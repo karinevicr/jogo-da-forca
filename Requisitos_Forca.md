@@ -2,7 +2,7 @@
 
 ## 1. Requisitos Funcionais
 
-&nbsp;&nbsp;&nbsp;&nbsp;Os requisitos funcionais definem as funcionalidades do sistema, estabelecendo as ações e comportamentos esperados para garantir que o sistema atenda às necessidades dos usuários.
+&nbsp;&nbsp;&nbsp;&nbsp;Os requisitos funcionais especificam as funcionalidades do sistema, definindo as ações e comportamentos esperados para garantir que o sistema atenda às necessidades dos usuários.
 
 ### **RF01**: O sistema deve permitir que os jogadores joguem partidas de forca online, podendo ser multiplayer.
 - **Critério de Aceitação**: O sistema deve permitir que no mínimo dois jogadores possam participar da mesma partida em tempo real.
@@ -21,7 +21,7 @@
   - **Pós-condição**: O sistema deve permitir a seleção e criação de partidas com diferentes níveis de dificuldade.
 
 ### **RF03**: O sistema deve permitir que o jogador escolha entre jogar contra a máquina ou contra outro jogador online.
-- **Critério de Aceitação**: O sistema deve oferecer uma opção para escolher entre "jogar contra a máquina" ou "jogar contra outro jogador".
+- **Critério de Aceitação**: O sistema deve permitir ao jogador escolher entre "jogar contra a máquina" ou "jogar contra outro jogador".
 - **Teste**: Selecionar a opção de jogar contra a máquina e verificar se o jogo é iniciado contra um bot. Selecionar a opção de jogar contra outro jogador e verificar se a partida é criada com outro jogador real.
   - **Pré-condição**: O sistema deve estar configurado para oferecer as duas opções de modo de jogo.
   - **Procedimento do teste**: Escolher cada opção e verificar o tipo de adversário.
@@ -60,10 +60,10 @@
   - **Resultado esperado**: Os dados devem ser criptografados e acessíveis apenas por usuários autorizados, com o consentimento do jogador para a coleta.
   - **Pós-condição**: O sistema está em conformidade com a LGPD.
 
-### **RNF04**: O sistema deve oferecer uma experiência de aprendizado gradual, permitindo que o jogador aprenda as regras e jogabilidade conforme for jogando.
+### **RNF04**: O sistema deve oferecer uma experiência de aprendizado gradual, permitindo que o jogador aprenda as regras e a jogabilidade conforme for jogando.
 
 - **ISO/IEC 25010 - Usabilidade**: O sistema deve ser fácil de aprender e utilizar, oferecendo um aprendizado progressivo e contínuo ao jogador.
-- **Critério de Aceitação**: O sistema deve fornecer dicas e orientações durante o jogo, principalmente para novos jogadores, explicando as regras de forma simples e intuitiva.
+- **Critério de Aceitação**: O sistema deve fornecer dicas e orientações durante o jogo, especialmente para novos jogadores, explicando as regras de forma simples e intuitiva.
 - **Teste**: Testar o jogo com um jogador novo e verificar se o sistema oferece dicas contextuais que o ajudem a entender as regras durante a partida. O sistema deve permitir que o jogador saiba, sem a necessidade de sair do jogo, como jogar e o que fazer em cada etapa do jogo.
   - **Pré-condição**: O sistema deve estar configurado para detectar quando o jogador está jogando pela primeira vez.
   - **Procedimento do teste**: Iniciar uma partida com um jogador iniciante e verificar se o sistema oferece:
