@@ -21,3 +21,21 @@
 - **docs/[nome-da-documentação]**: Utilizada para documentação de alguma parte do projeto nos arquivos .md. Exemplo: `docs/adiciona-introdução`.
 
 &nbsp;&nbsp;&nbsp;&nbsp;É importante frisar que no processo de GitFlow existem outras nomenclaturas de branches, porém, especificamente nesse projeto, foram adotadas somente essas. Caso deseje saber mais sobre políticas e criação de branches, você pode consultar este [link](https://fga-eps-mds.github.io/2018.2-ComexStat/docs/politicaBranches).
+
+## Jogo da velha
+
+&nbsp;&nbsp;&nbsp;&nbsp;Neste repositório, foi criado um MVP do jogo da velha. Embora ele não siga rigorosamente todos os requisitos, ele serve apenas como base, uma pequena demonstração. O jogo está no arquivo `main.py`. Foi escrito em Python, seguindo um tutorial encontrado no YouTube. O tutorial pode ser acessado [aqui](https://www.youtube.com/watch?v=bimQozx_E0I). A revisão do código foi feita com o auxílio de inteligência artificial, mais especificamente o [GPT](https://chatgpt.com/).
+
+### Passo a passo para acessar o jogo
+
+Para acessar o jogo, siga os passos abaixo. Embora simples, são fundamentais para garantir que tudo funcione corretamente:
+
+1. Abra o arquivo `main.py`.
+2. Pressione os comandos `Ctrl + J` para abrir o terminal integrado.
+3. No terminal, digite `python main.py` e pressione Enter.
+
+Após isso, o próprio jogo fornecerá as instruções. Divirta-se! 🎮
+
+
+
+
