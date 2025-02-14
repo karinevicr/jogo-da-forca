@@ -1,19 +1,22 @@
-# Jogo de Forca Online
 
-## Propósito
+## Introdução
 
-Este projeto tem como objetivo o desenvolvimento de um jogo de forca online. O jogo será implementado de forma simples e intuitiva, permitindo que os usuários joguem sozinhos ou com amigos em partidas multiplayer. O foco principal é criar uma experiência divertida e desafiadora, com interface amigável e boa performance.
+&nbsp;&nbsp;&nbsp;&nbsp;Este projeto tem como proposito o mapeamento de requistos funcionais de um jogo da velha, o principal objetivo da atividade é verificar e testar os conhecimentos em gitflow
 
 ## Levantamento de Requisitos
 
-Os requisitos para o jogo de forca online estão detalhados no arquivo `Requisitos_Forca.md`. Este documento contém os requisitos funcionais e não funcionais do sistema.
+&nbsp;&nbsp;&nbsp;&nbsp;Os requisitos para o jogo de forca online estão detalhados no arquivo `Requisitos_Forca.md`. Este documento contém os requisitos funcionais e não funcionais do sistema.
 
-### Instruções para Visualizar os Requisitos
 
-1. Clique no arquivo `Requisitos_Forca.md` na raiz do repositório para acessar o levantamento completo de requisitos.
+## Historico Girflow
+&nbsp;&nbsp;&nbsp;&nbsp;Abaixo se encontram maiores detalhes do processo de versionamentos dos codigos
 
-## Link para o Repositório
+### Padrão de Nomenclatura das Branches:
 
-Acesse o repositório no GitHub para mais detalhes sobre o projeto:
+- **main**: Contém o código estável e pronto para produção. Somente código testado e aprovado deve ser mergeado aqui.
+- **develop**: Branch de integração contínua, onde todas as novas funcionalidades e correções são mescladas antes de serem liberadas para produção.
+- **feat/[nome-da-feature]**: Utilizada para o desenvolvimento de novas funcionalidades. Exemplo: `feature/requisitos-funcionais`.
+- **bugfix/[nome-do-bug]**: Utilizada para correção de bugs. Exemplo: `bugfix/corrige-requisito-funcional`.
+- **docs/[nome-da-documentação]** Utilizada para documentação de alguma parte do projeto nos arquivos .md. Exemplo: `docs/adiciona-introdução`
 
-[Link para o repositório GitHub](https://github.com/karinevicr/jogo-da-forca)
+&nbsp;&nbsp;&nbsp;&nbsp;É importante frissar que no processo de gitflow existem outras nomenclatura de branchs, porém, especificamente nesse projeto foram adototas somentes essas, caso deseje saber um pouco mais sobre politicas e criação de branchs pode encontrar nesse link [aqui](https://fga-eps-mds.github.io/2018.2-ComexStat/docs/politicaBranches)
